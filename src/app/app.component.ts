@@ -1,7 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { FormBuilder, FormGroup } from "@angular/forms";
-
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
