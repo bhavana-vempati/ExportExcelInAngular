@@ -1,0 +1,114 @@
+.header {
+  background-color: #15596b;
+  color: white;
+}
+.custom-file-label {
+  width: 30%;
+  left: 9%;
+  top: -12px;
+  cursor: pointer;
+}
+.description {
+  padding-left: 4%;
+}
+.blue-solid-button {
+  display: inline-block;
+  font-family: Ubuntu-Medium;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-size: 14px;
+  padding: 0 25px;
+  margin: 0 10px;
+  height: 34px;
+  border: 1px solid #0070ad;
+  color: #0070ad;
+  background: #fff;
+  border-radius: 28px;
+  transition: 0.3s;
+}
+.custom-file-label::after {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  line-height: 1.5;
+  right: -125px;
+  top: -4px;
+  color: #0070ad;
+  height: 30px;
+  border-radius: 25px;
+  font-family: Ubuntu-Medium;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-size: 14px;
+  height: 34px;
+  border: 1px solid #0070ad;
+  color: #0070ad;
+  background: #fff;
+  border-radius: 28px;
+  transition: 0.3s;
+  padding: 10px 25px 0px 35px;
+}
+.browse {
+  position: absolute;
+  z-index: 2;
+  bottom: 82%;
+  left: 51.5%;
+}
+.custom-file-input {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  margin: 0;
+  opacity: 0;
+}
+.importBottomButtons {
+  margin-left: 3%;
+}
+.reset {
+  font-size: 14px;
+  color: #0070ad;
+  cursor: pointer;
+  left: -40px;
+  top: 6px;
+}
+.custom-file-label {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  left: 65px;
+  z-index: 1;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-top: 20%;
+}
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "Browse";
+  background: url("../assets/Browse file icon.png") left no-repeat;
+  background-position: 11% 44%;
+  margin-top: 7px;
+}
+.uploadfile {
+  margin-top: 4%;
+}
+.body {
+  padding: 20px;
+}
+.Note {
+  color: #999999;
+  padding-top: 5px;
+}
+.success {
+  height: 400px;
+}
+.text {
+  width: 30%;
+  background-color: yellow;
+}
