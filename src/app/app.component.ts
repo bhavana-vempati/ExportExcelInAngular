@@ -9,7 +9,6 @@ import { FormBuilder, FormGroup } from "@angular/forms";
 export class AppComponent implements OnInit {
   @ViewChild("fileUploader", { static: false }) fileUploader: ElementRef;
   @ViewChild("labelImport", { static: false }) labelImport: ElementRef;
-
   fileToUploadOnSelect: File = null;
   myuseridstring = "1";
   uploadForm: FormGroup;

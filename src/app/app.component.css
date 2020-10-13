@@ -11,7 +11,6 @@
 .description {
   padding-left: 4%;
 }
-
 .blue-solid-button {
   display: inline-block;
   font-family: Ubuntu-Medium;
@@ -92,7 +91,7 @@
 }
 .custom-file-input:lang(en) ~ .custom-file-label::after {
   content: "Browse";
-  background: url("../assets/Browse file icon.png") left no-repeat;
+  background: url("../assets/Browsefileicon.png") left no-repeat;
   background-position: 11% 44%;
   margin-top: 7px;
 }
